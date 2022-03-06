@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FAF0F0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityAddSubject">
+
+    <TextView
+        android:text="Update Subject"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextUpdateSubjectTitle"
+        android:hint="Subject title"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextUpdateSubjectCredit"
+        android:hint="Credit"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextUpdateSubjectTime"
+        android:hint="Time"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextUpdateSubjectPlace"
+        android:hint="Place"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonUpdateSubject"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
